@@ -85,6 +85,7 @@
 
     <main class="wrap main_flex__nowrap flex__jcontent_between flex__align-items_start">
         <div class="left_bar">
+            <!-- category -->
             <div id="category" class="box">
                 <!-- 1 -->
                 <div class="list_box">
@@ -172,7 +173,7 @@
                         </nav>
                     </div>
                 </div>
-                
+
                 <!-- 4 -->
                 <div class="list_box">
                     <div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between">
@@ -202,7 +203,50 @@
                     </div>
                 </div>
             </div>
+
+            <!-- filter_box -->
+            <div class="filter_box box">
+                <div class="title_filter main_flex__nowrap flex__jcontent_start flex__align-items_center">
+                    Colors
+                </div>
+
+                <div class="content_filter">
+                    <ul class="list_filter color_list main_flex flex__jcontent_start flex__align-items_start">
+                        <li><input id="blue" type="checkbox"><label for="blue" style="background-color: #1476f1"></label></li>
+                        <li><input id="green" type="checkbox"><label for="green" style="background-color: #82d889"></label></li>
+                        <li><input id="black" type="checkbox"><label for="black" style="background-color: #3c3d41"></label></li>
+                        <li><input checked id="metal" type="checkbox"><label for="metal" style="background-color: #838d8f"></label></li>
+                        <li><input id="gray_green" type="checkbox"><label for="gray_green" style="background-color: #b8c6c7"></label></li>
+                        <li><input id="orange" type="checkbox"><label for="orange" style="background-color: #ce954a"></label></li>
+                        <li><input id="gray_blue" type="checkbox"><label for="gray_blue" style="background-color: #7b7f91"></label></li>
+                        <li><input id="dark_gray" type="checkbox"><label for="dark_gray" style="background-color: #777777"></label></li>
+                        <li><input id="light_gray" type="checkbox"><label for="light_gray" style="background-color: #bdbdbd"></label></li>
+                        <li><input id="white" type="checkbox"><label for="white" style="background-color: #eeeeee"></label></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- filter_size -->
+            <div class="filter_box box">
+                <div class="title_filter main_flex__nowrap flex__jcontent_start flex__align-items_center">
+                    Size
+                </div>
+
+                <div class="content_filter">
+                    <ul class="list_filter main_flex flex__jcontent_start flex__align-items_start">
+                        <li><input id="size1" type="checkbox"><label for="size1">XS</label></li>
+                        <li><input id="size2" type="checkbox"><label for="size2">S</label></li>
+                        <li><input checked id="size3" type="checkbox"><label for="size3">M</label></li>
+                        <li><input id="size4" type="checkbox"><label for="size4">L</label></li>
+                        <li><input id="size5" type="checkbox"><label for="size5">XL</label></li>
+                    </ul>
+                </div>
+            </div>
         </div>
+        
+        
+        
+        <!-- right_bar -->
         <div class="right_bar">
             <div class="list_product main_flex flex__jcontent_start flex__align-items_start">
                 <a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
