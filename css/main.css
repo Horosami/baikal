@@ -288,3 +288,66 @@ main {
     padding: 0.41vmax;
     letter-spacing: 0.2vw;
 }
+
+.list_box {
+    width: 100%;
+}
+
+.title_box {
+    height: 4.16vmax;
+    padding: 0 1.66vmax;
+    border-bottom: #eee 1px solid;
+    cursor: pointer;
+}
+
+.title_box.open svg {
+    fill: #838d8f;
+    transform: rotate(90deg);
+}
+
+.title_box svg {
+    width: 0.41vmax;
+    height: 0.66vmax;
+    fill: #ccc;
+}
+
+.title_box p {
+    color: #3c3d41;
+    font-size: 0.91vmax;
+    text-transform: uppercase;
+    letter-spacing: 0.1vw;
+    font-weight: bold;
+}
+
+.list_link {
+    background-color: #838d8f;
+    padding: 0;
+    /*чтобы прятался*/
+    height: 0;
+    overflow: hidden;
+}
+
+.list_link.open {
+    height: auto;
+    overflow: auto;
+    padding: 1.66vmax;
+}
+
+.list_link a {
+    color: #daddde;
+    font-size: 1.08vmax;
+    display: block;
+    width: 100%;
+}
+
+.list_link a:hover {
+    color: #fff;
+}
+
+.list_link li {
+    padding-bottom: 1.25vmax;
+}
+
+.list_link li:last-child {
+    padding-bottom: 0;
+}
