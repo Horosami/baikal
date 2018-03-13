@@ -20,8 +20,21 @@ $(function(){
     $('input[name="maxPrice"]').val( '$' + $('#slider_price').slider('values', 1) );
     
     
-    
+    // basket
     $('#cart, .title_cart').click(function(){
         $('#cart_box').toggleClass('open');
     });
+    
+    // modal
+    $('#sign').click(function(){
+        $('.black_fill').toggleClass('open');
+        $('#modal').toggleClass('open');
+    });
+    
+    $('#close_mod, .black_fill').click(function(){
+        $('.black_fill').toggleClass('open');
+        $('#modal').toggleClass('open');
+    });
+    
+    
 });
