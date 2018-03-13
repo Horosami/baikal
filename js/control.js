@@ -37,4 +37,10 @@ $(function(){
     });
     
     
+    // search
+    $('.search_button').click(function(){
+        $('#search_panel').toggleClass('open');
+    });
+    
+    
 });
